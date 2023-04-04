@@ -1,0 +1,33 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-number {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.question-text {
+  font-size: 28px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 15px;
+  width: 70%;
+}
+.answer button:hover {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  background-color: rgb(192, 207, 207);
+  background-color: rgb(82, 80, 80);
+  color: white;
+  font-size: 18px;
+}
