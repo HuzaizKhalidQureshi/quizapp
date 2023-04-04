@@ -5,10 +5,42 @@ div {
   font-weight: lighter;
   align-items: center;
 }
+
+button {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  div {
+    font-size: 24px;
+  }
+  button {
+    font-size: 16px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  div {
+    font-size: 20px;
+  }
+  button {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+
 div button:hover {
   cursor: pointer;
   transition: 0.2s ease-out;
-
   background-color: green;
   color: aliceblue;
 }

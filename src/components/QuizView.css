@@ -23,6 +23,31 @@
   row-gap: 15px;
   width: 70%;
 }
+
+@media (max-width: 768px) {
+  .question-text {
+    font-size: 24px;
+  }
+  .question-number {
+    font-size: 14px;
+  }
+  .answer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .question-text {
+    font-size: 20px;
+  }
+  .question-number {
+    font-size: 12px;
+  }
+  .answer {
+    width: 100%;
+  }
+}
+
 .answer button:hover {
   cursor: pointer;
   transition: 0.2s ease-in;
